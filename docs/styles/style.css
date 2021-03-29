@@ -1,0 +1,198 @@
+html {
+  font-size: 0.5208vw;
+}
+
+body {
+  font-family: vdl-v7gothic, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  padding-left: 9.6rem;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+.btn {
+  display: block;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.btn.tag {
+  font-size: 2rem;
+  background-color: white;
+  color: black;
+  width: 13.2rem;
+  height: 5rem;
+  line-height: 5rem;
+  border: solid 0.1rem black;
+}
+
+.btn.link {
+  font-size: 2.5rem;
+  line-height: 5.1rem;
+  width: 13.2rem;
+  height: 5.1rem;
+}
+
+.btn.detail {
+  font-size: 3rem;
+  line-height: 7.7rem;
+  width: 27.5rem;
+  height: 7.7rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.btn.detail:hover {
+  color: black;
+  border: solid 0.1rem black;
+  background-color: white;
+}
+
+header {
+  margin-top: 19.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 9.6rem;
+}
+
+header nav.header-nav a {
+  margin-left: 4.8rem;
+}
+
+.nav-container {
+  margin-top: 28.8rem;
+}
+
+.nav-container a {
+  font-size: 5rem;
+  line-height: 9.6rem;
+}
+
+.develop-container {
+  margin-top: 21rem;
+}
+
+.develop-container h1 {
+  margin-bottom: 9.6rem;
+}
+
+.develop-container div.develop-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 19.1rem;
+}
+
+.develop-container div.develop-item div.develop-item-heading {
+  margin-top: 21.3rem;
+}
+
+.develop-container div.develop-item div.develop-item-heading h2 {
+  margin-bottom: 2.2rem;
+}
+
+.develop-container div.develop-item div.develop-item-heading div.tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3.2rem;
+}
+
+.develop-container div.develop-item div.develop-item-heading div.tags a {
+  margin-right: 1.1rem;
+}
+
+.develop-container div.develop-item:nth-child(2n) div.develop-item-heading {
+  margin-left: 14rem;
+}
+
+.develop-container div.develop-item:nth-child(2n + 1) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 11rem;
+}
+
+.develop-container div.develop-item img {
+  width: 86rem;
+  height: 54rem;
+}
+
+.develop-container div.develop-item span.time {
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.skill-container h1 {
+  margin-bottom: 9.6rem;
+}
+
+.skill-container div.skill-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+}
+
+.skill-container div.skill-wrapper div.skill {
+  width: 48rem;
+  height: 27rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-container div.skill-wrapper div.skill:hover img:nth-of-type(2) {
+  opacity: 0;
+}
+
+.skill-container div.skill-wrapper img {
+  width: 48rem;
+  height: 27rem;
+  position: absolute;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+footer {
+  float: right;
+  margin-top: 19rem;
+  margin-bottom: 10rem;
+}
+
+footer nav.footer-nav {
+  margin-top: 4.6rem;
+  margin-right: 9.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer nav.footer-nav a:nth-child(n + 2) {
+  margin-left: 4.6rem;
+}
+/*# sourceMappingURL=style.css.map */
