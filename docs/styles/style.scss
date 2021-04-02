@@ -76,6 +76,21 @@ header {
   div.develop-item {
     display: flex;
     margin-bottom: 19.1rem;
+    div.develop-item-image {
+      width: 86rem;
+      height: 54rem;
+      overflow: hidden;
+      position: relative;
+      &:hover img:nth-of-type(2) {
+        opacity: 0;
+      }
+      img {
+        width: 86rem;
+        height: 54rem;
+        position: absolute;
+        transition: 0.4s ease-in-out;
+      }
+    }
     div.develop-item-heading {
       margin-top: 21.3rem;
       h2 {
@@ -84,7 +99,7 @@ header {
       div.tags {
         display: flex;
         margin-bottom: 3.2rem;
-        a {
+        p {
           margin-right: 1.1rem;
         }
       }
@@ -100,10 +115,6 @@ header {
       margin-left: 11rem;
       div.develop-item-heading {
       }
-    }
-    img {
-      width: 86rem;
-      height: 54rem;
     }
     span.time {
       font-size: 3rem;
